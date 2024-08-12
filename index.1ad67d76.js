@@ -1,0 +1,2 @@
+document.getElementById("menu");var e=document.querySelectorAll(".menu-toggle"),o=document.querySelectorAll(".menu__nav a");"#menu"===window.location.hash&&document.body.classList.add("page__body--lock-scroll"),e.forEach(function(e){e.addEventListener("click",function(){document.body.classList.toggle("page__body--lock-scroll")})}),o.forEach(function(e){e.addEventListener("click",function(){document.body.classList.remove("page__body--lock-scroll")})});
+//# sourceMappingURL=index.1ad67d76.js.map
